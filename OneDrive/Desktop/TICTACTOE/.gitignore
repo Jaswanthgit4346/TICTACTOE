@@ -1,31 +1,43 @@
-# Compiled Java files
-*.class
+```none
+#.gitignore
 
-# Package files
-*.jar
-*.war
-*.ear
 
-# Logs
-*.log
+### VS Code ###
 
-# Build folders
-bin/
-out/
-target/
-
-# IntelliJ IDEA
-.idea/
-*.iml
-
-# VS Code
 .vscode/
 
-# Eclipse
-.project
-.classpath
-.settings/
 
-# OS files
+# Compiled class file
+
+*.class
+
+*.jar
+
+*.log
+
+
+# Other File Exclusions
+
 .DS_Store
-Thumbs.db
+
+*.iml
+
+
+# Build Folders Exclusion
+
+.idea/
+
+target/
+
+bin/
+
+doc/
+
+out/
+
+build/
+
+dist/
+
+```
+
